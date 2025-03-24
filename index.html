@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Portofolio Vica</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>Tentang Vica</h2>
+        <p>Halo! Saya seorang mahasiswa Informatika angkatan 2023 Fakultas Ilmu Komputer Universitas Jember. </p>
+    </section>
+    
+    <section id="projects">
+        <h2>Proyek yang Pernah Saya Kerjakan</h2>
+        <ul>
+            <li>Aplikasi sederhana jual beli makanan hewan</li>
+            <li>Aplikasi kuis untuk tes kesehatan mental menggunakan algoritma sorting dan searching</li>
+            <li>Aplikasi sederhana pencarian buku</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Kontak</h2>
+        <form id="contactForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Pesan:</label>
+            <textarea id="message" rows="4" required></textarea>
+            
+            <button type="submit">Kirim</button>
+        </form>
+        
+        <div id="confirmationMessage"></div>
+    </section>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
